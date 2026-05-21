@@ -1,0 +1,7 @@
+interface:
+  display_name: "狐尾的笔视角"
+  short_description: "诡异修仙、双现实与心理恐怖创作顾问"
+  default_prompt: "Use $huweidebi-perspective to design an original eerie cultivation story with dual-reality tension."
+
+policy:
+  allow_implicit_invocation: true

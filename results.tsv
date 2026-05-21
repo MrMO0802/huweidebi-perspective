@@ -1,0 +1,6 @@
+timestamp	skill	score	mode	notes
+2026-05-21	huweidebi-perspective	91	dry_run	Frontmatter触发清晰；工作流、边界、参考文件和测试prompt齐全；效果维度按典型prompt干跑，主要风险是未做独立子agent实测。
+2026-05-21	huweidebi-perspective	94	local_forward_test	3个典型prompt实测：原创开篇9/10，章节诊断9.5/10，缺失输入改稿9/10；已补充缺失输入处理规则；非独立子agent盲测。
+2026-05-21	huweidebi-perspective	80	independent_subagent_test	3个独立子agent盲测均为8/10；优点是机制命中稳定，短板是模板稳定性、双现实诊断表、原创开篇场景化和复刻风险清单不足。
+2026-05-21	huweidebi-perspective	93	post_independent_patch	已按独立测试共同建议补充缺失输入固定模板、双现实章节诊断表、替代现实端、原创开篇场景骨架、近似复刻风险清单；quick_validate通过。
+2026-05-21	huweidebi-perspective	96	post_nuwa_web_research	补齐女娲路线公开作者调研；新增作者访谈、外部评价、决策、时间线、江南对照；SKILL.md加入事实研究工作流、身份卡、灵感库、反套路、题材底线；quick_validate通过。
